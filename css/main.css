@@ -1,0 +1,231 @@
+body {
+    background: #018082;
+    font-family: "Nunito";
+    color: #222222;
+  }
+
+
+  
+  h1 {
+    font-family: "Righteous", cursive;
+    font-weight: bold;
+    font-size: 60px;
+  }
+
+  h1 {
+      float: left;
+      margin: 0;
+      padding: 38px 0;
+  }
+  
+  
+  /*** font styles 
+  font-family: 'Mukta', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Righteous', cursive; ***/
+
+  /****** HEADER ******/
+  #home {
+    height: 800px;
+    background: url('../img/hero2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+  padding: 65px 0 65px 25px;
+}
+
+nav{
+  float: right;
+  margin: 75px 45px 75px 0;
+}
+
+#homepage nav {
+  float: right;
+  padding: 75px 25px;
+}
+
+nav ul li {
+  font-family: "Nunito", sans-serif;
+  list-style: none;
+  display: inline;
+}
+
+a{
+  color: #f8f8f8;
+  font-weight: 700; 
+  text-decoration: none;
+  margin: 0 0 0 30px;
+}
+
+#hero-text {
+  width: 1000px;
+  clear: both;
+  font-size: 70px;
+  line-height: 80px;
+  padding: 20px 0 20px 25px;
+}
+
+#hero-text span {
+  color: #DC758F;
+}
+  
+  /***** GRID *****/
+  .full-width {
+      width: 1200px;
+      margin: 0 auto;
+      overflow: auto;
+  }
+  
+  .half-width {
+      width: 600px;
+      float: left;
+  }
+  
+  .third-width {
+      width: 400px;
+      float: left;
+  }
+
+  /****** ABOUT ******/
+   #about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Nunito', san-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 50px;
+}
+#about p {
+    font-size: 21px;
+    color: #222222;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+  
+  /****** HOME-WORK ******/
+  #home-work {
+    background: #ced3dc;
+    text-align: center;
+    text-transform: lowercase;
+  }
+  
+  #home-work .full-width {
+    padding: 115px 0;
+  }
+  
+  #home-work .img {
+    padding-bottom: 30px;
+  }
+
+  #home-work img {
+    margin: 20px 50px;
+  }
+  
+  #home-work h3 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 32px;
+    margin: 0 auto;
+  }
+  
+  #home-work p {
+    font-family: 'Nunito', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+  }
+
+  /****** PROJECT PAGE ******/
+  #work-page a {
+    color: #222222;
+  }
+
+  #work {
+    text-align: center;
+    text-transform: lowercase;
+  }
+  
+  #work .full-width {
+    padding: 115px 0;
+  }
+  
+  #work .img {
+    padding-bottom: 30px;
+  }
+
+  #work img {
+    margin: 20px 50px;
+  }
+  
+  #work h3 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 32px;
+    margin: 0 auto;
+  }
+  
+  #work p {
+    font-family: 'Nunito', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+  }
+
+  /****** CONTACT ******/
+
+#contact {
+  background-color: #ebebeb;
+}
+#contact .full-width {
+  padding: 110px 0;
+}
+#contact img#contact-img {
+  margin-left: 25px;
+  border: 12px solid #222222;
+}
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+  padding-left: 115px;
+}
+#contact #envelope {
+  padding: 0 10px 0 115px;
+}
+#contact h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 36px;
+  line-height: 44px;
+}
+#contact #email-header{
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 44px;
+  margin: 40px 0 0 0;
+}
+#contact a {
+  text-decoration: none;
+  color: #DC758F;
+  font-weight: bold;
+  font-size: 28px;
+}
+#contact ul {
+  list-style: none;
+}
+#contact ul li {
+   display: inline-block;
+}
+#contact ul img {
+  padding-right: 48px;
+}
+
+
